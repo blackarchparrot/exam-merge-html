@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+        @page {
+            size: A4 landscape;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+       
+        .page {
+            width: 297mm;  
+            height: 210mm; 
+            padding: 20mm; 
+            margin: 5px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            
+          
+            column-count: 2;
+            column-gap: 40px;
+            column-rule: 1px solid #000;
+            
+            
+            column-fill: auto; 
+            overflow: hidden; 
+        }
+
+h1, h2, h3, h6 { 
+    /* column-span: all; <--- এটি মুছে ফেলুন বা কমেন্ট আউট করুন */
+    text-align: center; 
+    margin: 0 0 5px 0; 
+    display: block; /* নিশ্চিত করুন এটি ব্লক এলিমেন্ট হিসেবে আছে */
+}
+
+h1 { font-size: 14pt; color: #000; }
+h2 { font-size: 13pt; color: #000; }
+h3 { font-size: 12pt; color: #000; }
+
+h6 { 
+    font-size: 11pt; 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 5px;
+    margin: 0 0 10px 0;
+    
+    /* কলামের ভেতর বাম-ডান ঠিক রাখতে flex এর বদলে এটি ব্যবহার করুন */
+    display: block; 
+    overflow: hidden; /* ফ্লোট ক্লিয়ার করার জন্য */
+}
+
+/* h6 এর ভেতর সময় এবং পূর্ণমান আলাদা করতে এই স্প্যানগুলো ব্যবহার করুন */
+.left-text {
+    float: left;
+}
+
+.right-text {
+    float: right;
+}        
+        @media print {
+            body { background: none; }
+            .page { 
+                margin: 0; 
+                box-shadow: none; 
+                page-break-after: always; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        
+                <h1>মধ্য তরপুরচণ্ডী আলি দাখিল মাদরাসা, চাঁদপুর</h1>
+        <h2>প্রথম সাময়িক পরীক্ষা - ২০২৬</h2>
+        <h3>শ্রেণীঃ অষ্টম &nbsp;&nbsp;&nbsp; বিষয়ঃ বিজ্ঞান </h3>
+        <h6>
+            <span class="left-text">সময়ঃ ২ ঘণ্টা</span>
+            <span class="right-text">পূর্ণমানঃ ৫০</span>
+        </h6>
+
+        
+        <p style="text-align: center;", "font-size: 11pt;"><b>বহুনির্বাচনি প্রশ্ন - ১০</b></p>
+
+        
+        <p style="font-size: 8pt;">1. দ্বিপদ নামকরণ প্রবর্তন করেন কে?<br>
+        ক. মেনডেল&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;খ. বেনথাম&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;গ. নিউটন&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ঘ. ডারউইন<br>
+        
+২. কোন পর্বের প্রাণী অন্তঃপরজীবী হিসেবে প্রাণীর অন্ত্র ও রক্তে বাস করে?<br>
+
+ক. অ্যানেলিডা&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+খ. পরিফেরা&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+গ. মলাস্কা&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ঘ.নেমাটোডা<br>
+৩. রেচন অঙ্গ হলো-
+
+i. শিখা অঙ্গ
+
+ii. নিডোসাইট অঙ্গ
+
+iii. নেফ্রিডিয়া অঙ্গ
+<br>
+নিচের কোনটি সঠিক?
+<br>
+ক. i  ও ii &nbsp;&nbsp;&nbsp;
+খ. ii ও iii&nbsp;&nbsp;&nbsp;
+গ. i ও  iii&nbsp;&nbsp;&nbsp;
+ঘ. i, ii ও iii <br>
+           ৪. আরশোলা কোন পর্বের প্রাণী?<br>
+           ক. মলাস্কা &nbsp;&nbsp;&nbsp;
+           খ. নেমাটোডা &nbsp;&nbsp;&nbsp;
+           গ. আর্থোপোডা &nbsp;&nbsp;&nbsp;
+           ঘ. কর্ডাটা <br>
+           ৫. শীতল রক্তবিশিষ্ট প্রাণী-<br>
+         ক. কুনো ব্যাঙ&nbsp;&nbsp;&nbsp;&nbsp;
+         খ. মানুষ&nbsp;&nbsp;&nbsp;&nbsp;
+         গ. ইলিশ &nbsp;&nbsp;&nbsp;&nbsp;
+         ঘ. কুমির<br>
+         ৬. জীবদেহে কয় ধরনের কোষ বিভাজন দেখা যায়?
+        ক. ২&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        খ. ৩&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        গ. ৪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        ঘ. ৫<br>
+        ৭. এককোষী জীবের কোষ বিভাজন প্রক্রিয়া কোনটি?<br>
+        ক. অ্যামাইটোসিস&nbsp;&nbsp;&nbsp;
+        খ. মাইটোসিস&nbsp;&nbsp;&nbsp;
+        গ. মিয়োসিস&nbsp;&nbsp;&nbsp;
+        ঘ. দ্বিবিভাজন<br>
+        ৮. ক্রোমোজোমগুলো মাইটোসিসের কোন ধাপে বিষুবীয় অঞ্চলে আসে? <br>
+        ক. প্রোফেজ&nbsp;&nbsp;&nbsp;
+        খ. প্রোমেটাফেজ&nbsp;&nbsp;&nbsp;
+        গ. মেটাফেজ&nbsp;&nbsp;&nbsp;
+        ঘ. টেলোফেজ<br>
+        ৯. সপুষ্পক উদ্ভিদের মিয়োসিস ঘটে কোথায়?<br>
+        ক. ডিম্বাশয়ে&nbsp;&nbsp;&nbsp;
+        খ. পরাগধানীতে&nbsp;&nbsp;&nbsp;
+        গ. পরাগরেণুতে&nbsp;&nbsp;&nbsp;
+        ঘ. ডিম্বাণুতে<br>
+        ১০. জিনের অবস্থান কোথায়?<br>
+        ক. ক্রোমোজোমে&nbsp;&nbsp;&nbsp;
+        খ. সাইটোপ্লাজমে&nbsp;&nbsp;&nbsp;
+        গ. ক্লোরোপ্লাস্টে&nbsp;&nbsp;&nbsp;
+        ঘ. মাইটোকন্ড্রিয়ায়</p>
+        
+        <p style="text-align: center;",  "font-size: 11pt;"><b>সৃজনশীল প্রশ্ন - ৩০ (যেকোনো ৩টি)</b></p>
+        
+        <p style="font-size: 8pt;"> ১.&nbsp;&nbsp; X----->সি হর্স<br>
+        Y----->হাঙ্গর<br>
+        Z----->কেঁচো<br>
+        ক. সিলোম কী?<br>
+
+খ. নটোকর্ড বলতে কী বোঝ?<br>
+
+গ. "Z" কোন পর্বভুক্ত? ব্যাখ্যা করো।<br>
+
+ঘ. "X" ও "Y" কেন ভিন্ন শ্রেণিভুক্ত- ব্যাখ্যা করো।<br>
+        
+        <br>  
+        
+       
+                <h1>মধ্য তরপুরচণ্ডী আলি দাখিল মাদরাসা, চাঁদপুর</h1>
+        <h2>প্রথম সাময়িক পরীক্ষা - ২০২৬</h2>
+        <h3>শ্রেণীঃ অষ্টম &nbsp;&nbsp;&nbsp; বিষয়ঃ বিজ্ঞান </h3>
+        <h6>
+            <span class="left-text">সময়ঃ ২ ঘণ্টা</span>
+            <span class="right-text">পূর্ণমানঃ ৫০</span>
+        </h6>
+
+        
+        <p style="text-align: center;", "font-size: 11pt;"><b>বহুনির্বাচনি প্রশ্ন - ১০</b></p>
+
+        
+        <p style="font-size: 8pt;">1. দ্বিপদ নামকরণ প্রবর্তন করেন কে?<br>
+        ক. মেনডেল&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;খ. বেনথাম&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;গ. নিউটন&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ঘ. ডারউইন<br>
+        
+২. কোন পর্বের প্রাণী অন্তঃপরজীবী হিসেবে প্রাণীর অন্ত্র ও রক্তে বাস করে?<br>
+
+ক. অ্যানেলিডা&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+খ. পরিফেরা&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+গ. মলাস্কা&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ঘ.নেমাটোডা<br>
+৩. রেচন অঙ্গ হলো-
+
+i. শিখা অঙ্গ
+
+ii. নিডোসাইট অঙ্গ
+
+iii. নেফ্রিডিয়া অঙ্গ
+<br>
+নিচের কোনটি সঠিক?
+<br>
+ক. i  ও ii &nbsp;&nbsp;&nbsp;
+খ. ii ও iii&nbsp;&nbsp;&nbsp;
+গ. i ও  iii&nbsp;&nbsp;&nbsp;
+ঘ. i, ii ও iii <br>
+           ৪. আরশোলা কোন পর্বের প্রাণী?<br>
+           ক. মলাস্কা &nbsp;&nbsp;&nbsp;
+           খ. নেমাটোডা &nbsp;&nbsp;&nbsp;
+           গ. আর্থোপোডা &nbsp;&nbsp;&nbsp;
+           ঘ. কর্ডাটা <br>
+           ৫. শীতল রক্তবিশিষ্ট প্রাণী-<br>
+         ক. কুনো ব্যাঙ&nbsp;&nbsp;&nbsp;&nbsp;
+         খ. মানুষ&nbsp;&nbsp;&nbsp;&nbsp;
+         গ. ইলিশ &nbsp;&nbsp;&nbsp;&nbsp;
+         ঘ. কুমির<br>
+         ৬. জীবদেহে কয় ধরনের কোষ বিভাজন দেখা যায়?
+        ক. ২&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        খ. ৩&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        গ. ৪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        ঘ. ৫<br>
+        ৭. এককোষী জীবের কোষ বিভাজন প্রক্রিয়া কোনটি?<br>
+        ক. অ্যামাইটোসিস&nbsp;&nbsp;&nbsp;
+        খ. মাইটোসিস&nbsp;&nbsp;&nbsp;
+        গ. মিয়োসিস&nbsp;&nbsp;&nbsp;
+        ঘ. দ্বিবিভাজন<br>
+        ৮. ক্রোমোজোমগুলো মাইটোসিসের কোন ধাপে বিষুবীয় অঞ্চলে আসে? <br>
+        ক. প্রোফেজ&nbsp;&nbsp;&nbsp;
+        খ. প্রোমেটাফেজ&nbsp;&nbsp;&nbsp;
+        গ. মেটাফেজ&nbsp;&nbsp;&nbsp;
+        ঘ. টেলোফেজ<br>
+        ৯. সপুষ্পক উদ্ভিদের মিয়োসিস ঘটে কোথায়?<br>
+        ক. ডিম্বাশয়ে&nbsp;&nbsp;&nbsp;
+        খ. পরাগধানীতে&nbsp;&nbsp;&nbsp;
+        গ. পরাগরেণুতে&nbsp;&nbsp;&nbsp;
+        ঘ. ডিম্বাণুতে<br>
+        ১০. জিনের অবস্থান কোথায়?<br>
+        ক. ক্রোমোজোমে&nbsp;&nbsp;&nbsp;
+        খ. সাইটোপ্লাজমে&nbsp;&nbsp;&nbsp;
+        গ. ক্লোরোপ্লাস্টে&nbsp;&nbsp;&nbsp;
+        ঘ. মাইটোকন্ড্রিয়ায়</p>
+        
+        <p style="text-align: center;",  "font-size: 11pt;"><b>সৃজনশীল প্রশ্ন - ৩০ (যেকোনো ৩টি)</b></p>
+        
+        <p style="font-size: 8pt;"> ১.&nbsp;&nbsp; X----->সি হর্স<br>
+        Y----->হাঙ্গর<br>
+        Z----->কেঁচো<br>
+        ক. সিলোম কী?<br>
+
+খ. নটোকর্ড বলতে কী বোঝ?<br>
+
+গ. "Z" কোন পর্বভুক্ত? ব্যাখ্যা করো।<br>
+
+ঘ. "X" ও "Y" কেন ভিন্ন শ্রেণিভুক্ত- ব্যাখ্যা করো।<br>
+        
+        <br>          
+        
+        </div>
+
+    <div class="page">
+        <p style="font-size: 8pt;"></p>
+
+    </div>
+
+</body>
+
+<!-- &copy; 2026 Aftab Sunny. All Rights Reserved. Unauthorized copying and distribution is strictly prohibited. -->
+
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .page {
+            width: 297mm;  
+            height: 210mm; 
+            padding: 20mm; 
+            margin: 5px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            
+            column-count: 2;
+            column-gap: 40px;
+            column-rule: 1px solid #000;
+            column-fill: auto; 
+            overflow: hidden; 
+        }
+
+        /* Removed column-span: all so it stays in one column */
+        h1, h2, h3, h6 { 
+            text-align: center; 
+            margin: 0 0 5px 0; 
+        }
+
+        h1 { font-size: 14pt; color: #000; }
+        h2 { font-size: 13pt; color: #000; }
+        h3 { font-size: 12pt; color: #000; }
+        
+        h6 { 
+            font-size: 11pt; 
+            border-bottom: 1px solid #eee; 
+            padding-bottom: 5px;
+            margin: 0 0 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content-block {
+            break-inside: avoid; /* Keeps the copy from splitting weirdly */
+        }
+        
+        @media print {
+            body { background: none; }
+            .page { 
+                margin: 0; 
+                box-shadow: none; 
+                page-break-after: always; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <div class="content-block">
+            
+            <p style="font-size: 8pt;">
+                ২.জীববিজ্ঞানের শিক্ষক জনাব জয়নাল আবেদীন সাহেব একদিন ক্লাসে রূপান্তরিত কাণ্ড পড়ানোর সময় ছাত্রদের অনেক বাস্তব উপকরণ দেখাচ্ছিলেন। উদাহরণ হিসাবে আলু ও আদা দেখালেন<br>
+                ক. পরাগায়ন কত প্রকার? <br>
+                খ. বৃতির ২টি কাজ লিখ।<br>
+                গ. জয়নাল সাহেবের দেখানো প্রথম উপকরণটি কীভাবে প্রজনন সম্পন্ন করে তা ব্যাখ্যা করো।<br>
+                ঘ. 'উপকরণ ২টিতে একই অঙ্গজ প্রজনন ঘটলেও, এদের বৃদ্ধি পদ্ধতি ভিন্ন'- উক্তিটির যথার্থতা বিশ্লেষণ করো।<br>
+                ৩. <br>
+                <img src=".\3.jpg" width="180" height="70" alt=""><br>
+                ক. ক্যারিওকাইনেসিস কাকে বলে?<br>
+                খ. ক্রোমোজোম বংশগতিতে ভূমিকা রাখে-ব্যাখা কর।<br>
+                গ. চিত্রে R এর চতুর্থ পর্যায়টির চিহ্নিত চিত্র আঁকো।<br>
+                ঘ. প্রজাতির বংশগতি রক্ষায় চিত্রের S কোষ বিভাজনটির গুরুত্ব বিশ্লেষণ করো।<br>
+                ৪. <br>
+                <img src=".\4.jpg" width="150" height="50" alt=""><br>
+                ক. শ্রেণিবিন্যাস কাকে বলে?<br>
+                খ. সিলেন্টেরন কী? ব্যাখ্যা করো।<br>
+                গ. P প্রাণীটি কোন পর্বের অন্তর্ভুক্ত? ব্যাখ্যা করো।<br>
+                ঘ. Q ও R প্রাণী দুইটি ভিন্ন শ্রেণিতে থাকার কারণ বিশ্লেষণ করো
+            </p>
+            <p style="text-align: center; font-size: 11pt;"><b>সংক্ষিপ্ত প্রশ্ন - ১০ (যেকোনো ৫টি)</b></p>
+            <p style="font-size: 8pt;">
+                ১. চিংড়ি কোন পর্বের প্রাণী? এদের বৈশিষ্ট্য গুলো কি কি?<br>
+                ২. টিকটিকিকে কর্ডাটা পর্বের প্রাণী বলা হয় কেন?<br>
+                ৩. স্তন্যপায়ী প্রাণীদের দুইটি বৈশিষ্ট্য লিখ।<br>
+                ৪. মাইটোসিস ও মিয়োসিস এর মধ্যে দুটি পার্থক্য লিখ <br>
+                ৫. মাইটোসিসের ধাপ গুলোর নাম লিখ <br>
+                ৬. মাইটোসিস এর সমীকরণিক বিভাজন বলে কেন? <br>
+                ৭. ব্যাপন ও অভিস্রবণের মধ্যে দুটি পার্থক্য লিখ।<br>
+                ৮. চিংড়িকে মাছ বলা হয় না কেন?
+            </p>
+        </div>
+
+        <div class="content-block">
+           
+               
+
+            <p style="font-size: 8pt;">
+                <b>২.</b>জীববিজ্ঞানের শিক্ষক জনাব জয়নাল আবেদীন সাহেব একদিন ক্লাসে রূপান্তরিত কাণ্ড পড়ানোর সময় ছাত্রদের অনেক বাস্তব উপকরণ দেখাচ্ছিলেন। উদাহরণ হিসাবে আলু ও আদা দেখালেন<br>
+                ক. পরাগায়ন কত প্রকার? <br>
+                খ. বৃতির ২টি কাজ লিখ।<br>
+                গ. জয়নাল সাহেবের দেখানো প্রথম উপকরণটি কীভাবে প্রজনন সম্পন্ন করে তা ব্যাখ্যা করো।<br>
+                ঘ. 'উপকরণ ২টিতে একই অঙ্গজ প্রজনন ঘটলেও, এদের বৃদ্ধি পদ্ধতি ভিন্ন'- উক্তিটির যথার্থতা বিশ্লেষণ করো।<br>
+                ৩. <br>
+                <img src=".\3.jpg" width="180" height="70" alt=""><br>
+                ক. ক্যারিওকাইনেসিস কাকে বলে?<br>
+                খ. ক্রোমোজোম বংশগতিতে ভূমিকা রাখে-ব্যাখা কর।<br>
+                গ. চিত্রে R এর চতুর্থ পর্যায়টির চিহ্নিত চিত্র আঁকো।<br>
+                ঘ. প্রজাতির বংশগতি রক্ষায় চিত্রের S কোষ বিভাজনটির গুরুত্ব বিশ্লেষণ করো।<br>
+                ৪. <br>
+                <img src=".\4.jpg" width="150" height="50" alt=""><br>
+                ক. শ্রেণিবিন্যাস কাকে বলে?<br>
+                খ. সিলেন্টেরন কী? ব্যাখ্যা করো।<br>
+                গ. P প্রাণীটি কোন পর্বের অন্তর্ভুক্ত? ব্যাখ্যা করো।<br>
+                ঘ. Q ও R প্রাণী দুইটি ভিন্ন শ্রেণিতে থাকার কারণ বিশ্লেষণ করো
+            </p>
+            <p style="text-align: center; font-size: 11pt;"><b>সংক্ষিপ্ত প্রশ্ন - ১০ (যেকোনো ৫টি)</b></p>
+            <p style="font-size: 8pt;">
+                ১. চিংড়ি কোন পর্বের প্রাণী? এদের বৈশিষ্ট্য গুলো কি কি?<br>
+                ২. টিকটিকিকে কর্ডাটা পর্বের প্রাণী বলা হয় কেন?<br>
+                ৩. স্তন্যপায়ী প্রাণীদের দুইটি বৈশিষ্ট্য লিখ।<br>
+                ৪. মাইটোসিস ও মিয়োসিস এর মধ্যে দুটি পার্থক্য লিখ <br>
+                ৫. মাইটোসিসের ধাপ গুলোর নাম লিখ <br>
+                ৬. মাইটোসিস এর সমীকরণিক বিভাজন বলে কেন? <br>
+                ৭. ব্যাপন ও অভিস্রবণের মধ্যে দুটি পার্থক্য লিখ।<br>
+                ৮. চিংড়িকে মাছ বলা হয় না কেন?
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<!-- &copy; 2026 Aftab Sunny. All Rights Reserved. Unauthorized copying and distribution is strictly prohibited. -->
+
+</html>
